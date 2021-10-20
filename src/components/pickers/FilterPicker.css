@@ -1,0 +1,43 @@
+.FilterPicker {
+  display: flex;
+}
+.FiltersControls {
+  width: 73px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-right: 10px;
+}
+.FiltersControls .bp3-label {
+  text-align: right;
+  margin-bottom: 5px;
+}
+.FiltersList {
+  width: 100%;
+}
+
+table.bp3-html-table.FiltersList {
+  width: 100%;
+  border: 1px solid #1b262c;
+  font-size: 11px;
+  height: 83px;
+  overflow: auto;
+  display: block;
+  margin-top: 1px;
+}
+table.bp3-html-table.FiltersList tbody {
+  width: 100%;
+  position: relative;
+  display: block;
+  height: 100%;
+}
+table.bp3-html-table.FiltersList tbody tr {
+  vertical-align: top;
+  width: 100%;
+}
+table.bp3-html-table.FiltersList tbody tr td {
+  color: #a7b6c2;
+}
+table.bp3-html-table.FiltersList tbody tr td:last-child {
+  width: 100%;
+}

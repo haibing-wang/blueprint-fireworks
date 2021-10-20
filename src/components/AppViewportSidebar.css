@@ -1,0 +1,38 @@
+.AppViewportSidebar {
+  border-radius: 0;
+  min-width: 70px;
+  width: 70px;
+  height: calc(100vh - 40);
+  overflow: hidden;
+}
+.AppViewportSidebar > li {
+  display: inline-block;
+}
+.AppViewportSidebar li a {
+  outline: none;
+}
+.AppViewportSidebar li a span,
+.AppViewportSidebar li a svg {
+  align-content: center;
+  margin: 0;
+}
+.AppViewportSidebar > li.bp3-submenu {
+  width: 30px;
+}
+.AppViewportSidebar > li.bp3-submenu > .bp3-popover-wrapper {
+  position: relative;
+}
+.AppViewportSidebar > li.bp3-submenu > span > span > a > span.bp3-icon-caret-right {
+  position: absolute;
+  transform: rotate(45deg);
+  right: -5px;
+  bottom: -3px;
+}
+.AppViewportSidebarMenuHeader {
+  display: block !important;
+  text-align: center;
+}
+.AppViewportSidebarMenuHeader h6 {
+  font-weight: normal !important;
+  font-size: 10px !important;
+}

@@ -1,0 +1,13 @@
+.ColorStylePicker [data-component="color"].PickerPopoverButton {
+  padding-right: 0;
+  padding-left: 4px;
+}
+[data-component="color"] .bp3-button-text {
+  display: inline-block;
+  margin-right: 3px;
+}
+[data-component="color"] .PickerPopoverButtonPreview {
+  width: 15px;
+  height: 15px;
+  border: 1px solid #fff;
+}

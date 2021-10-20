@@ -1,0 +1,132 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  position: relative;
+}
+.AppContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.AppContent {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.AppViewport {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+.AppViewportDocument {
+  position: relative;
+  display: flex;
+  flex: 1;
+  background: #111;
+  width: 100%;
+  overflow: hidden;
+}
+.AppViewportPanels {
+  width: 320px;
+  background: #293742;
+}
+
+.ExtraIcon {
+  margin: 0 !important;
+}
+.ExtraIcon > div {
+  width: 16px;
+  height: 16px;
+}
+.ExtraIcon > div > svg {
+  fill: currentColor;
+}
+.bp3-portal .ExtraIcon {
+  margin-top: 2px !important;
+  margin-right: 7px !important;
+}
+.ShapePanel {
+  overflow: hidden;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+  -webkit-user-drag: none;
+  user-drag: none;
+  font-size: 11px;
+  position: relative;
+}
+.ShapePanelContent {
+  margin: 0;
+  padding: 0;
+}
+.ShapePanel .bp3-input-group.bp3-small .bp3-input {
+  font-size: 10px;
+  height: 24px;
+  line-height: 24px;
+  padding-left: 2px;
+  padding-right: 2px;
+  font-family: monospace;
+  text-align: center;
+}
+.ShapePanel .bp3-button:focus {
+  outline-style: solid;
+  outline-width: 0.5px;
+}
+.ShapePanel > .bp3-icon {
+  position: absolute;
+  left: 4px;
+  top: 4px;
+}
+.ShapePanel .PanelField {
+  margin: 0;
+  margin-bottom: 5px;
+}
+.ShapePanel .PanelField:last-child {
+  margin-bottom: 0;
+}
+.ShapePanel .PanelField > label.bp3-label {
+  line-height: normal;
+  height: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  min-width: 40px;
+  margin-left: 10px;
+}
+
+.ShapePanel .PanelField .bp3-form-content,
+.ShapePanel .PanelField .bp3-form-content > .bp3-control-group.bp3-fill > .bp3-popover-wrapper:first-child {
+  width: 100%;
+}
+.ShapePanel
+  .PanelField
+  .bp3-form-content
+  > .bp3-control-group.bp3-fill
+  > .bp3-popover-wrapper:first-child
+  .bp3-popover-target {
+  display: flex;
+  flex: 1;
+}
+.ShapePanel
+  .PanelField
+  .bp3-form-content
+  > .bp3-control-group.bp3-fill
+  > .bp3-popover-wrapper:first-child
+  .bp3-popover-target
+  > div {
+  width: 100%;
+}
+.ShapePanel button[data-component="style"],
+.ShapePanel button[data-component="style"] .bp3-button-text {
+  width: 100%;
+}
+.PickerPopover .bp3-popover-content {
+  padding: 0 !important;
+}
+.ShapePanel .PanelField .PickerInput {
+  width: 50px;
+  text-align: left;
+}

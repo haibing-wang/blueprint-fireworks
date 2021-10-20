@@ -1,0 +1,14 @@
+.RectangleRoundnessPicker .bp3-form-content {
+  display: flex;
+}
+.RectangleRoundnessPicker .PickerValueInput {
+  width: auto;
+  text-align: left;
+}
+.RectangleRoundnessPicker .PickerValueInput:last-child {
+  width: 40px;
+  margin-left: 10px;
+  margin-bottom: 0;
+  height: 24px;
+  padding: 0;
+}
